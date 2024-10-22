@@ -1,4 +1,5 @@
 import { Header } from "./components";
+import { Hero } from "./components";
 
 export const App = () => {
   return (
@@ -9,6 +10,7 @@ export const App = () => {
       }}
     >
       <Header />
+      <Hero />
     </div>
   );
 };
