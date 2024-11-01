@@ -1,4 +1,4 @@
-import { Destination, Header, Hero } from "./components";
+import { Destination, Header, Hero, Pricing, Ready } from "./components";
 
 export const App = () => {
   return (
@@ -11,6 +11,8 @@ export const App = () => {
       <Header />
       <Hero />
       <Destination />
+      <Pricing />
+      <Ready />
     </div>
   );
 };
