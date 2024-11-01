@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div id="hero-container">
       <div>
-        <span id="hero-title">Khusvgul Lake</span>
+        <span id="hero-title">Khuvsgul Lake</span>
       </div>
 
       <div>
