@@ -13,10 +13,10 @@ export const Hero = () => {
       </div>
 
       <div id="hero-image-container">
-        <img src="images/image-1.png" alt="sukhbaatar" />
-        <img src="images/image-2.png" alt="gandan" />
-        <img src="images/image-3.png" alt="ger" />
-        <img src="images/image-4.png" alt="nuur" />
+        <img src="images/image-1.png" alt="Nature" />
+        <img src="images/image-2.png" alt="Nature" />
+        <img src="images/image-3.png" alt="Nature" />
+        <img src="images/image-4.png" alt="Nature" />
       </div>
     </div>
   );

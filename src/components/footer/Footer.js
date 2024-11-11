@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { FacebookLogo, FooterLogo } from "../../assets";
-import { InstagramLogo } from "../../assets/InstagramLogo";
+import { FacebookLogo, FooterLogo, InstagramLogo } from "../../assets";
 
 export const Footer = () => {
   return (
@@ -12,10 +11,12 @@ export const Footer = () => {
         </div>
         <div id="footer-container-right">
           <div className="footer-container-right-item">
-            <FacebookLogo /> Facebook
+            <FacebookLogo />
+            Facebook
           </div>
           <div className="footer-container-right-item">
-            <InstagramLogo /> Instagram
+            <InstagramLogo />
+            Instagram
           </div>
         </div>
       </div>

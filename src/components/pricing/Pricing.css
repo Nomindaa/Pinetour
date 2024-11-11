@@ -1,50 +1,74 @@
 #pricing-container {
     padding-top: 200px;
+    padding-bottom: 300px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#pricing-cards {
+  }
+  
+  #pricing-cards {
     margin-top: 100px;
     display: flex;
     gap: 20px;
-}
-
-.card {
+  }
+  
+  .card {
     width: 285px;
     height: 370px;
     border-radius: 24px;
     border: none;
     background-color: #fff;
-    border: 2px solid #18ba51;
-    padding: 40px;
-}
-
-.card li {
-    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42px;
+    color: #303030;
+  }
+  
+  .card li {
+    font-size: 25px;
     font-weight: 500;
-    line-height: 24.38px;
+    line-height: 35px;
     color: #777777;
-}
-
-.card-price {
+  }
+  
+  .card-price {
     font-size: 32px;
     font-weight: 700;
     line-height: 39.01px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
-}
-
-.card-title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 29.26px;
     color: #303030;
-}
-
-
-.card:hover {
+    text-align: end;
+  }
+  
+  .card:hover {
     border: 2px solid #18ba51;
-}
+  }
+  
+  @media (max-width: 1280px) {
+    #pricing-container {
+      padding-top: 100px;
+      padding-bottom: 200px;
+      width: 100%;
+    }
+  
+    #pricing-cards {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .card {
+      width: 200px;
+      height: 320px;
+      border-radius: 16px;
+      padding: 40px;
+    }
+  }
